@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  multiple_choice: false
+  answer_ids: 
+  timed_value: 1
+
+two:
+  description: MyString
+  multiple_choice: false
+  answer_ids: 
+  timed_value: 1
