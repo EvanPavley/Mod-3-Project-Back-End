@@ -39,4 +39,9 @@ rails g migration AddQuizRefToQuestions quiz:references
 rails g migration AddQuestionRefToAnswers question:references
 
 rails g migration RemoveAnswerIdsFromQuestions answer_ids:array
+rails g migration RemoveAnswerIdsFromQuestions answer_ids:array
 rails g migration RemoveQuestionIdsFromQuizzes question_ids:array
+rails g migration RemoveImageFromQuizzes image:string
+
+rails g migration RemoveTimedValueFromQuestions timed_value:integer
+rails g migration RemoveCorrectFromQuestions correct:boolean
